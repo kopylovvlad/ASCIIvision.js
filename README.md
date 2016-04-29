@@ -15,7 +15,7 @@ var shape =
 
 vision.breakPieces( shape );
 /*
-it's return 
+it return 
   [["+------------+",
     "|            |",
     "|            |",
