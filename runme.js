@@ -1,16 +1,16 @@
-var vision = require('./ASCIIvision');
+var vision = require('./ASCIIvision')
 
-var shape = 
-[ "+--+      +----+--+",
-  "|  |      |    |  |",
-  "|  +-+----+----+  |",
-  "|    |    |    |  |",
-  "|  +-+----+    |  |",
-  "|  |           |  |",
-  "+--+-----------+--+"];
+var shape =
+  [ '+--+      +----+--+',
+    '|  |      |    |  |',
+    '|  +-+----+----+  |',
+    '|    |    |    |  |',
+    '|  +-+----+    |  |',
+    '|  |           |  |',
+    '+--+-----------+--+']
 
-console.log( "before:" );
-vision.show_figure( shape );
-tmp = vision.breakPieces( shape );
-console.log( "after:" );
-vision.show_figure( tmp );
+console.log('before:')
+vision.show_figure(shape)
+var tmp = vision.breakPieces(shape)
+console.log('after:')
+vision.show_figure(tmp)
